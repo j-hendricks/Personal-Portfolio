@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Roboto:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <title> John Hendricks | Portfolio </title>
+</head>
+
+<body>
+
+    <!-- No defined header section -->
+
+    <!-- Main content goes here split into sections/fragments -->
+    <main>
+
+        <!-- Utilizes flexbox styling -->
+        <section class="fragment fragment-one">
+            <div class="headers">
+                <h1> John Hendricks </h1>
+                <h3> Data Analyst | Lover of Data Visualization </h3>
+                <h3> Primary Languages: Python, R, SQL, JavaScript </h3>
+            </div>
+
+            <div class="learn">
+
+                <!-- Could hyperlink this down with a smooth scroll -->
+                <p> learn more </p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </section>
+        <section class="fragment fragment-two">
+            <h2> Do You Need Help Cleaning, Visualizing, <br/> Transferring, or Understanding Your Data? <br/> Let's Work Together! </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+
+                        <!-- brief intoduction / brand statement  -->
+                        <h5>
+                            Passionate, driven, and dedicated data analyst with extensive experience in data analysis. 
+                            Skilled at finding relationships in data and collaborating with others.    
+                            At my current internship at the Applied A.I. Laboratory at UNCW, I have visualized time-series data, 
+                            created neural networks, and written a published machine learning article. 
+                            Earning a Bootcamp Certificate through the Data Analytics Bootcamp at UNC Chapel Hill. 
+                            During this bootcamp, I have acquired new skills, including: writing queries with SQL, cleaning and analyzing data with Pandas and Python, 
+                            and scraping data from various websites. I am prepared to analyze any data that comes my way!
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="learn">
+                <!-- Could hyperlink this down with a smooth scroll -->
+                <p> see why you should hire me </p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </section>
+        <section class="fragment fragment-three">
+            <h3>Things I've Made</h3>
+            <hr class="title-underline">
+            <div class="container carousel-container">
+
+                <!-- begin carousel -->
+                <!-- Replace the placeholder image with actual images from projects -->
+                <!-- images should be 800*600 or a matching ratio for best results -->
+                <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#portfolioCarousel" data-slide-to="0" class="active custom-indicator">
+                        </li>
+                        <li data-target="#portfolioCarousel" data-slide-to="1" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="2" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="3" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="4" class="custom-indicator"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <!--image here -->
+                            <img src="assets/images/gender_vs_time.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Gender and Powerlifting</h5>
+                                <p> Visualized Changes in Powerlifiting Competitions Over Time </p>
+                                <button onclick="location.href='https://github.com/j-hendricks/Power-Lifting-Analysis'" type = "button" >View Code</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/pairplot.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5> Pairplot Showing Similarity Among Stats </h5>
+                                <p> Compared Data Between Legendary and Non-Legendary Pokemon </p>
+                                <button onclick="location.href='https://github.com/j-hendricks/Pokemon-Analysis'" type = "button" >View Code</button>
+                            </div> 
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/pca.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5> Classifying Cryptocurrencies with PCA </h5>
+                                <p> Used K-Means Clustering and PCA to Find Hidden Patterns Among Cryptocurrencies </p>
+                                <button onclick="location.href='https://github.com/j-hendricks/Cryptocurrencies'" type = "button" >View Code</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/stock-performance-2018.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5> ENPH Outperforms Competition </h5>
+                                <p> Calculated and Compared Total Volume and % Return on Popular Green Energy Stocks </p>
+                                <button onclick="location.href='https://github.com/j-hendricks/DAQO-Stock-Analysis'" type = "button" >View Code</button>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/Earthquake_Picture.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5> Earthquakes Around the World </h5>
+                                <p> Mapped Recent Earthquakes on World Map </p>
+                                <button onclick="location.href='https://github.com/j-hendricks/Mapping-Earthquakes'" type = "button" >View Code</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="fragment fragment-four">
+
+            <h3>Technology I Use</h3>
+            <hr class="title-underline">
+            <div class="container">
+                <div class="labels">
+                    <div class="tech">SQL</div>
+                    <div class="tech">Python</div>
+                    <div class="tech">JavaScript</div>
+                    <div class="tech">Spark</div>
+                    <div class="tech">Tableau</div>
+                </div>
+            </div>
+
+        </section>
+        <section class="fragment fragment-five">
+            <h3>My Education</h3>
+            <hr class="title-underline">
+
+            <!-- Universities/Education -->
+            <div class="container">
+                <h5> University of North Carolina at Chapel Hill</h5>
+                <p class="credential"> Data Analytics Coding Bootcamp | 2022</p>
+                <h5> The University of Virginia</h5>
+                <p class="credential"> B.S. Chemistry | 2017 - 2021</p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="fragment fragment-six">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6>John Hendricks</h6>
+
+                        <!--update these links -->
+                        <a href="https://www.linkedin.com/in/john-hendricks123" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/j-hendricks" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="mailto: john.hendricks4@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <p class="text-muted copyright"> John Hendricks &copy </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
