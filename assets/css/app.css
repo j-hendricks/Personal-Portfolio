@@ -6,6 +6,7 @@ html, body {
  
 }
 
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 8rem;
@@ -77,6 +78,9 @@ h5 {
 .social-icon {
      font-size: 50px;
      color: #0e5eab;
+     width: 20px; 
+     height: 20px; 
+     margin: 0 40px 10px 0;
 }
 
 .fragment-one p, .fragment-two p {
